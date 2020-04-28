@@ -1,0 +1,165 @@
+img {
+  width:100px;
+  height:100px;
+  background: url(/img-placeholder.jpg) no-repeat scroll 0 0;
+}
+
+table {
+    border-top: solid;
+    width: 100%;
+    height: 100%;
+    border-color: #efefef;
+    border-width: thin;
+}
+
+.main-item-container {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    width: 1000px
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 80%;
+}
+.item-body {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+.item-box {
+    height: 250px;
+    width:235px;
+    display: inline-block;
+    margin-bottom: 20px
+}
+.img-div {
+    border-style: solid;
+    border-width: thin;
+    border-color: #efefef;
+    height: 70%
+}
+.bottom-item-div {
+    background-color: #efefef;
+    height: 30%;
+}
+.price-span{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.stk{
+    color: red;
+    font-style: italic;
+}
+.add-to-cart-btn{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.add-to-cart-btn-style{
+    border-color: #0099ff;
+    border: solid;
+    border-width: thin;
+    color: #0099ff;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.go-to-cart-style{
+    background-color: #0099ff; 
+    color: white;
+    cursor: pointer;
+}
+.plus-minus-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;    
+}
+.add-to-cart-btn-style:hover {
+  background-color: #0099ff; 
+  color: white;
+  cursor: pointer;
+}
+
+
+.order-summary-div {
+    float: left;
+    width: 70%;
+}
+.cart-total-div {
+    float: right;
+    width: 29%;
+    border-style: solid;
+    border-width: thin;
+    border-color: #efefef;
+    height: 35%;
+}   
+
+.item-cart-div{
+    border-style: solid;
+    border-width: thin;
+    border-color: #efefef;
+}
+.ht-50 {
+    height: 50%
+}
+.ht-35{
+    height: 35%
+}
+.pd-5{
+    padding: 5px
+}
+.pd-10{
+    padding: 10px   
+}
+.ft-bold{
+    font-weight: bold;
+}
+.pos-abs{
+    position: absolute;
+}
+.pos-rel {
+    position: relative;   
+}
+.right {
+    right: 0
+}
+.left {
+    left:0;
+}
+.bottom{
+    bottom: 0
+}
+.bg-grey {
+    background:#efefef;
+}
+.align-ctr {
+    text-align: center;
+}
+.margin-5 {
+    margin: 5px
+}
+.float-rt {
+    float: right;
+}
+.margin-rt{
+    margin-right: 20px;
+}
+.pos-relative{
+    position: relative;
+}
